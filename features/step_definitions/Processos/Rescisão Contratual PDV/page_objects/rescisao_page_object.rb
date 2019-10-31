@@ -17,7 +17,7 @@ class RescisaoContratual < SitePrism::Page
 	element :pos_a_ser_removida, :xpath, '//*[@id="43f1nnh5esj"]/tbody/tr[1]/td[1]/span/i'
   element :nome_contato, :xpath, '//*[@id="angularFormFieldInputHtmlESTABELECIMENTO_NOME_CONTATO"]/div/input'
 	element :telefone_contato, :xpath, '//*[@id="angularFormFieldInputHtmlESTABELECIMENTO_TELEFONE_CONTATO"]/div/input'
-	element :resultado, :xpath, '/html/body/app-root/app-home/app-bind-view/app-view/ng-component/div/app-bind-view/app-view/ng-component/div/app-bind-view[1]/app-view/ng-component/div/div/app-bind-view/app-view/ng-component/div/app-bind-view/app-view/ng-component/div/app-bind-view/app-view/ng-component/div/app-bind-view[2]/app-view/ng-component/app-modal/div/div/div/div[2]/div/app-bind-view/app-view/ng-component/div/div/div[2]/app-form/form/app-grid/div/div[2]/table/tbody/tr[1]/td[1]/span/i'
+	element :resultado, "tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > span:nth-child(1) > i:nth-child(1)"
 	element :mesmo_endereco_cadastro, :xpath, '//*[@id="MESMO_ENDERECO"]'
 	element :avancar, :xpath, '//*[@id="angularButtonBUTTON_AVANCAR"]'
 end
