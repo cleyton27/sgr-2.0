@@ -4,9 +4,8 @@
 class RescisaoContratual < SitePrism::Page
 	element :sgr_iconi, :xpath, '//*[@id="sys-SGR-bv"]'
 
-	element :menu, :xpath, '//*[@id="angularComponentSGR_COMPONENT_NAVIGATION"]/app-nav-bar-flex/nav/div/button/i'
-
-	element :processo, :xpath, '//*[@id="headingMenuProcessos"]/div'
+	#element :menu, :xpath, '//*[@id="angularComponentSGR_COMPONENT_NAVIGATION"]/app-nav-bar-flex/nav/div/button/i'
+	#element :processo, :xpath, '//*[@id="headingMenuProcessos"]/div'
 	element :credenciamento_nova_unidade, :xpath, '//*[@id="headingSub2"]/div[1]'
 	element :tipo_solicitante, "select[id='TIPO_SOLICITANTE']"
 	element :tipo_solicitacao, "select[id='TIPO_SOLICITACAO']"
@@ -23,6 +22,7 @@ class RescisaoContratual < SitePrism::Page
 end
 
 class PesquisaRescisaoContratual < SitePrism::Page
+	element :pesquisa_recisao,  'Rescisão Contratual PDV'
 	element :cpf_cpnpj, :xpath, '//*[@id="angularFormFieldInputHtmlFILTRO_RESCISAO_CPF_CNPJ"]/div/input'
 	element :protolo, :xpath, '//*[@id="angularFormFieldInputHtmlFILTRO_RESCISAO_PROTOCOLO"]/div/input'
 	element :situacao, "select[id='FILTRO_RESCISAO_SITUACAO']"

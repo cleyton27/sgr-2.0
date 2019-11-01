@@ -1,4 +1,7 @@
 Quando("clico em pesquisar rescisao contratual") do
+  #pesquisa_recisao= PesquisaRescisaoContratual.new
+  #pesquisa_recisao.click
+  find(:xpath, '//*[@id="headingSub7"]/div[1]').click
 
 end
 

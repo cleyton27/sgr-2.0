@@ -1,4 +1,5 @@
 #language: pt
+@rescisao
 
 Funcionalidade: Realizar um recissao contratual irevercivel
 
@@ -6,11 +7,12 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Rescisao contratual irreversivel
 		Dado que eu realize o login
 
-		Quando eu clico no iconi do SGR
+		Quando eu clico no icone do SGR
 
-		E clico no iconi do menu
+		E clico no icone do menu
 		E clico em na opção processo
-		E clico em credenciamento Nova Unidade
+		E clico em rescisao contatual pdv
+		E clico no botao novo
 		E seleciono Tipo de Solicitante
 		E seleciono o Tipo de Solicitacao
 		E seleciono o Motivo da Solicitacao
@@ -25,7 +27,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisa de recisao pelo CPF/CNPJ
 
 		Dado que eu realize o login
-		Quando eu clico no iconi do SGR
+		Quando eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo cpf/cnpj
@@ -36,7 +38,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisa de recisao pelo protocolo
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em resquisar rescisao contratual
 		E preencho o campo protocolo
@@ -47,7 +49,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a situacao
@@ -58,7 +60,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a empresa
@@ -70,7 +72,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a tipo solicitante
@@ -82,7 +84,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo solicitante
@@ -93,7 +95,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E selecione a fase
@@ -104,7 +106,7 @@ Funcionalidade: Realizar um recissao contratual irevercivel
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo responsavel

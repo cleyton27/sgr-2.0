@@ -1,5 +1,7 @@
 #language: pt
 
+@rescisao
+
 Funcionalidade: Relizar uma busca de recisao
 
 
@@ -7,7 +9,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisa de recisao pelo CPF/CNPJ
 
 		Dado que eu realize o login
-		Quando eu clico no iconi do SGR
+		Quando eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo cpf/cnpj
@@ -18,7 +20,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisa de recisao pelo protocolo
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em resquisar rescisao contratual
 		E preencho o campo protocolo
@@ -29,7 +31,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a situacao
@@ -40,7 +42,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a empresa
@@ -52,7 +54,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pela situacao
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E seleciono a tipo solicitante
@@ -64,7 +66,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo solicitante
@@ -75,7 +77,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E selecione a fase
@@ -86,7 +88,7 @@ Funcionalidade: Relizar uma busca de recisao
 	Cenario: Pesquisar recisao pelo solicitante
 
 		Dado que eu realize o login
-		Quando  eu clico no iconi do SGR
+		Quando  eu clico no icone do SGR
 		E clico em na opção processo
 		E clico em pesquisar rescisao contratual
 		E preencho o campo responsavel
