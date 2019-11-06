@@ -7,26 +7,27 @@ Dado("que eu realize o login") do
 end
 
 Quando("eu clico no icone do SGR") do
- @rescisao.sgr_iconi.click
+ @login.sgr_icone.click
  sleep 2
 end
 
 Quando("clico no icone do menu") do
-
    @home.botao_menu.click
   sleep 2
 end
 
-Quando("clico em na opção processo") do
+Quando("clico na opção processo") do
 
   @home.Menu.processos.click
   sleep 2
 end
 
-Quando("clico em credenciamento Nova Unidade") do
+Quando("clico em rescisao contatual pdv") do
+  @home.Menu.rescisao_contratual.click
+end
 
-  @home.Menu.credenciamento_nova_unidade.click
-  sleep 2
+Quando("clico no botao novo") do
+  @rescisao.novo.click
 end
 
 Quando("seleciono Tipo de Solicitante") do
@@ -82,4 +83,43 @@ Quando("clico no botão Avançar") do
 
   @rescisao.avancar.click
   sleep 2
+end
+
+Quando("seleciono o Tipo solicitante cliente") do
+  @rescisao.tipo_solicitante.select @cliente
+
+end
+
+Quando("seleciono o tipo solicitante iniativar adquirencia") do
+  @rescisao.tipo_solicitacao.select @inativar_adquerencia
+
+end
+
+Quando("seleciono motivo solicitacao baixa procura") do
+  @rescisao.motivo_solicitacao.select @motivo_solicitacao
+end
+
+Quando("clico no botao iniciar") do
+  @rescisao.iniciar.click
+  sleep 4
+end
+
+Quando("seleciono a opcao nao irreversivel para possivel negociar") do
+  # @rescisao.resultado_negociaca.select @cliente_encerrou_as_atividade
+  @rescisao.possivel_negociar.select @nao_irreversivel
+  #@recisao.possivel_negociar.select @pos_ja_retirada
+  #@recisao.possivel_negociar.select @sim_reversivel
+  sleep 2
+end
+
+Quando("seleciono cliente encerrou as atividades para resultado negociacao") do
+  @rescisao.resultado_negociaca.select @cliente_encerrou_as_atividade
+  # @rescisao.resultado_negociaca.select @cliente_insatisfeito_com_os_servicos
+  #@rescisao.resultado_negociaca.select @cliente_migrou_para_outra_empresa
+  sleep 3
+end
+
+Quando("seleciono o protocolo atendido para protocolo foi atendido") do
+  @rescisao.protocolo_foi_atendido.select @protocolo_atendido
+  sleep 3
 end

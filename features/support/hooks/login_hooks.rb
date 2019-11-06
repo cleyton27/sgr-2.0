@@ -4,3 +4,4 @@ Before do
   @senha = "Satae+666"
   @home = Home.new
 end
+

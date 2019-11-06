@@ -6,6 +6,7 @@ require 'faker'
 require 'site_prism'
 require 'ruby-plsql'
 require 'oci8'
+require 'pg'
 
 Faker::Config.locale= 'pt-BR'
 

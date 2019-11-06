@@ -4,7 +4,7 @@
 class Menu < SitePrism::Section
   element :processos, :xpath, '//*[@id="headingMenuProcessos"]/div'
 	element :credenciamento_nova_unidade, :xpath, '//*[@id="headingSub2"]/div[1]'
-
+  element :rescisao_contratual, :xpath, '//*[@id="headingSub7"]/div[1]'
 
 end
 
@@ -14,6 +14,8 @@ class Home < SitePrism::Page
   section :Menu, Menu,  '#divGroupChildrensSGR_COMPONENT_MENU'
 
 end
+
+
 
 
 

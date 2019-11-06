@@ -69,6 +69,7 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    pg (0.18.4)
     public_suffix (4.0.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -119,6 +120,7 @@ DEPENDENCIES
   cucumber
   faker!
   geckodriver-helper
+  pg (~> 0.18.4)
   roo
   rspec
   ruby-oci8 (~> 2.2, >= 2.2.7)
